@@ -1,0 +1,17 @@
+# Terraform dosyaları ve klasörleri
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# VS Code ve sistem dosyaları
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
